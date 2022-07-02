@@ -1,0 +1,95 @@
+
+body{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ background: black;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+ background-size: cover;
+}
+.box{
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: url(https://i.gifer.com/2RNb.gif);
+  text-align: center;
+  border-radius: 14%;
+  box-shadow: rgb(70, 102, 225) 0px 20px 30px -10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.box:hover{
+  transition:  0.25s;
+  box-shadow: rgba(255, 49, 49, 0.4) 0px 30px 90px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.box #info1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.box #info2 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.box input[type = "ad"],.box input[type = "kod"]{
+  border: 0;
+  background: black;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding:  14px 10px;
+  width:  200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  box-shadow: rgba(255, 7, 58, 0.25) 0px 30px 60px -12px inset, rgba(70, 102, 255, 0.3) 0px 18px 36px -18px inset;
+  transition:  0.25s;
+}
+
+.box input[type = "ad"]:focus,.box input[type = "kod"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+  color: white;
+  box-shadow: rgb(18, 80, 44) 0px 20px 30px -10px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.box input[type = "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding:  14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  box-shadow: rgb(18, 80, 44) 0px 20px 30px -10px;
+  transition:  0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+  box-shadow: rgba(18, 80, 44, 0.4) 0px 30px 90px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
