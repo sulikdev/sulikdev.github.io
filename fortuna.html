@@ -18,9 +18,9 @@
     <li>Heç birşey</li>
     <li>Shot 1 ədəd</li>
     <li>Evolution Special</li>
-    <li>Premium Carx döndür</li>
+    
   </ul>
-  <button type="button">SPIN</button>
+  <button type="button">ÇEVIR</button>
 </fieldset>
   <style>
 :where(.ui-wheel-of-fortune) {
@@ -117,7 +117,7 @@ function wheelOfFortune(selector) {
       animation.cancel(); // Reset the animation if it already exists
     }
 
-    const randomAdditionalDegrees = Math.random() * 360 + 1800;
+    const randomAdditionalDegrees = Math.random() * 360 + 4800;
     const newEndDegree = previousEndDegree + randomAdditionalDegrees;
 
     animation = wheel.animate([
